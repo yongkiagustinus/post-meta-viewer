@@ -1,0 +1,46 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Post Meta Viewer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-23 08:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: post-meta-viewer.php:72
+#, php-format
+msgid "%s Post meta found"
+msgid_plural "%s Post metas found"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Author of the plugin
+msgid "88digital"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://88digital.co"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://88digital.co/stuff/plugins/post-meta-viewer/"
+msgstr ""
+
+#. Name of the plugin
+#: post-meta-viewer.php:57
+msgid "Post Meta Viewer"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"View all post meta that saved in a post, page or custom post type. No "
+"settings needed just plug and play."
+msgstr ""
