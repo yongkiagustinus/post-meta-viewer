@@ -15,7 +15,7 @@ View all post meta that saved in a post, page or custom post type. No settings n
 View all post meta that saved in a post, page or custom post type. No settings needed just plug and play.
 
 == Installation ==
-1. Upload "wp-message-button" folder to the "/wp-content/plugins/" directory.
+1. Upload "post-meta-viewer" folder to the "/wp-content/plugins/" directory.
 1. Activate the plugin through the "Plugins" menu in WordPress.
 
 == Frequently Asked Questions ==
