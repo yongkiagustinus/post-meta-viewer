@@ -9,10 +9,15 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-View all post meta that saved in a post, page or custom post type. No settings needed just plug and play.
+View all post meta that saved in a post, page or custom post type in easily readable format. No settings needed just plug and play.
 
 == Description ==
-View all post meta that saved in a post, page or custom post type. No settings needed just plug and play.
+This plugin is useful if you want to see all post metas that stored in a post or page and the value of each meta.
+Whether for debugging, quick view a data or just curious what is saved inside your post or page meta.
+
+Just install and activate, **Post Meta Viewer** plugin will show a metabox contain the list table of all post metas that saved for each post or page in easily readable format. 
+
+No settings needed just plug and play.
 
 == Installation ==
 1. Upload "post-meta-viewer" folder to the "/wp-content/plugins/" directory.
