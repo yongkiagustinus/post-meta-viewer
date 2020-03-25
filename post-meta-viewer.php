@@ -3,7 +3,7 @@
  * Plugin Name: Post Meta Viewer
  * Plugin URI: https://88digital.co/stuff/plugins/post-meta-viewer/
  * Description: View all post meta that saved in a post, page or custom post type. No settings needed just plug and play.
- * Version: 1.0
+ * Version: 1.1
  * Author: 88digital
  * Author URI: https://88digital.co
  * License: GPLv2 or later
@@ -67,15 +67,18 @@ class PostMetaViewer {
 		}
 
 		$post_metas = get_post_meta( $post->ID ); 
-		ksort( $post_metas ); ?>
+		ksort( $post_metas ); 
+		?>
 			<div style="font-weight: bold; padding: 10px 0;"><?php echo sprintf( _n( '%s Post meta found', '%s Post metas found', count( $post_metas ), 'post-meta-viewer' ), number_format_i18n( count( $post_metas ) ) ); ?></div>
 			<table class="postmetaviewer-table widefat fixed striped">
 				<tbody>
 					<?php foreach( $post_metas as $key => $value ){ ?>
-						<?php $val = self::is_json( $value[0] ) ? array( json_decode( $value[0] ) ) : array( maybe_unserialize( $value[0] ) ); ?>
+						<?php 
+						$val = self::is_json( $value[0] ) ? array( json_decode( $value[0] ) ) : array( maybe_unserialize( $value[0] ) ); 
+						?>
 						<tr>
 							<th width="30%"><?php echo esc_html( $key ); ?></th>
-							<td><pre><?php esc_html( var_export( maybe_unserialize( $val ) ) ); ?></pre>
+							<td><pre><?php echo esc_html( var_export( $val, true ) ); ?></pre>
 							</td>
 						</tr>
 					<?php } ?>

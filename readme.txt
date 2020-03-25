@@ -5,7 +5,7 @@ Donate link: https://paypal.me/88digital
 Requires at least: 4.0
 Tested up to: 5.3
 Requires PHP: 5.6
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,6 +34,12 @@ You can get support by going to Support section of this plugin page
 Keep your plugin up to date to get the latest features & the best performance
 
 == Changelog ==
+
+= 1.1 =
+
+Release date: March 24th, 2020
+
+* Fix HTML markup display in post meta value
 
 = 1.0 =
 
