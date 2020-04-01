@@ -3,7 +3,7 @@
  * Plugin Name: Post Meta Viewer
  * Plugin URI: https://88digital.co/stuff/plugins/post-meta-viewer/
  * Description: View all post meta that saved in a post, page or custom post type. No settings needed just plug and play.
- * Version: 1.1
+ * Version: 1.2
  * Author: 88digital
  * Author URI: https://88digital.co
  * License: GPLv2 or later
